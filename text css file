@@ -1,0 +1,125 @@
+body {
+	background-color: blue;
+}
+
+#container
+{
+width:80%;
+margin:0 auto;
+overflow:auto;
+background-color: lightgray;
+}
+
+#header
+{
+height:90px;
+background-color: red;
+}
+
+#nav
+{
+overflow:auto;
+}
+#nav ul
+{
+list-style:none;
+height:30px;
+padding:0px;
+margin:0px;
+}
+#nav ul li
+{
+float:left;
+margin:10px;
+}
+
+#main
+{
+overflow:auto;
+margin-top:3px;
+
+}
+#main_left
+{
+float:left;
+width:70%;
+min-height:400px;
+background-color: lightgreen;
+}
+#main_right
+{
+background-color: gray;
+float:right;
+width:30%;
+min-height:400px;
+}
+
+#footer {
+	height:40px;
+	font-size:110%;
+	text-align: center;
+	padding: 10px;
+	background-color: lightblue;
+    color: #000000; 
+	clear: both;
+}
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Read more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Read less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: underline;
+  padding: 0.5em;
+  color: black;
+  font-size: .9em;
+  line-height: 2;
+  border:  ;
+  border-radius: .25em;
+}
+
+/* Other style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
